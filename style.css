@@ -1,0 +1,35 @@
+video
+{
+    width: 100%;
+    height: auto;
+}
+		html, body {
+    padding:0;
+    margin:0;
+}
+	body { background-color: #000; }
+
+.footer {
+	height: 30px;
+	background-color: #232323;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #232323;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+.footer a {
+	color: #FF0000;
+}
+
+.text {
+	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+	top: -9px;
+	position: relative;
+	font-size: 13px;
+	color: #fff;
+	top: 7px;
+}
