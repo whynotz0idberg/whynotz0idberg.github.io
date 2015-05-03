@@ -15,7 +15,14 @@
   ga('create', 'UA-55800208-2', 'auto');
   ga('send', 'pageview');
         </script>
-
+        
+        <script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "mobile.html";
+}
+//-->
+        </script>
 <!--
 Created by Matthew Finley
 Original Video by EthioMod (https://www.youtube.com/watch?v=W73IRm9x1qo)
@@ -31,11 +38,11 @@ Music by OMFO (https://www.youtube.com/watch?v=RTFyrZo8Dns)
 
 	</head>
 	<body>
-        <video autoplay loop preload="auto">
+        <video id="video" autoplay loop preload="auto">
             <source src="pootis.mp4" type='video/mp4' />
             <source src="pootis.webm" type='video/webm' />
             <source src="pootis.ogv" type='video/ogg' />
-            <p class="vjs-no-js">Browser not supported</p>
+            <p>Browser not supported</p>
         </video>
 
         <div class="footer">
