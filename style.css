@@ -1,3 +1,26 @@
+.donate {
+    position: relative;
+    float: right;
+    right: -60px;
+    top: -10px
+}
+.twitter {
+    position: relative;
+    float: right;
+    right: 100px;
+    top: 5px;
+}
+.mdonate {
+    position: relative;
+    right: -100px;
+    top: -20px   
+}
+.mtwitter {
+    position: relative;
+    float: left;
+    margin: 10px;
+    right: -10px
+}
 video
 {
     width: 100%;
