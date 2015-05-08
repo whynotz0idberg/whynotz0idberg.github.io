@@ -1,14 +1,26 @@
+.googleplus {
+    position: relative;
+    float: right;
+    right: 150px;
+    top: 3px
+}
 .donate {
     position: relative;
     float: right;
-    right: -60px;
+    right: -160px;
     top: -10px
 }
 .twitter {
     position: relative;
     float: right;
-    right: 100px;
+    right: -1px;
     top: 5px;
+}
+.mgoogleplus {
+    position: relative;
+    float: right;
+    right: 150px;
+    top: 3px
 }
 .mdonate {
     position: relative;
